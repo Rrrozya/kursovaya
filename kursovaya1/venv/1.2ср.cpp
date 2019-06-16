@@ -4,7 +4,8 @@
 using namespace std;
 
 int main() {
-    float m = 1.8, k;
+    const float m = 1.8;
+    float k;
     cin >> k;
     float x = float(pow(exp(1.0), m*k));
     cout << x;
