@@ -4,7 +4,7 @@ comp = 1
 while n > 0:
     sum += n % 10
     comp *= (n % 10)
-    n = n / 10
+    n = n // 10
 if (sum > 9) and (sum < 100):
     print("Сумма цифр является двухзначным числом")
 else:
