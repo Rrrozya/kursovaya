@@ -20,14 +20,12 @@ print("При a = ", a, ", b = ", b, ", z = ", z, " значение y = ", r1)
 
 a = -1.5
 b = 3.2
-x = float(input())
 z = pow(exp(x), 2)
 r1 = f(a, b, z, x)
 print("При a = ", a, ", b = ", b, ", z = ", z, " значение y = ", r1)
 
 a = 1.7
 b = 5.5
-x = float(input())
 z = exp*exp*exp
 r1 = f(a, b, z, x)
 print("При a = ", a, ", b = ", b, ", z = ", z, " значение y = ", r1)
